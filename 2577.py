@@ -1,4 +1,3 @@
-# https://www.acmicpc.net/problem/2577
 input01 = int(input(""))
 input02 = int(input(""))
 input03 = int(input(""))
@@ -13,8 +12,8 @@ count07 = 0
 count08 = 0
 count09 = 0
 
-final_input = input01 * input02 * input03
-list01 = list(map(int, list(str(final_input))))
+a = input01 * input02 * input03
+list01 = list(map(int, list(str(a))))
 
 
 for i in list01:

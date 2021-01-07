@@ -7,5 +7,5 @@ for j in range(test_case):
     list01 = list(input02)
     for i in list01:
         add01 += int(i)
-    print(f"Case #{j + 1}: {add01}")
+    print(f"Case #{j + 1}: {list01[0]} + {list01[1]} = {add01}")
     add01 = 0

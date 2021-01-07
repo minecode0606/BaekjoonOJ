@@ -1,8 +1,7 @@
 input01 = int(input(""))
-
-sum = 1
+output01 = 0
 for i in range(1, input01 + 1):
-    sum = sum * i
+    output01 += i
 
-    
-print(sum)
+
+print(output01)

@@ -1,6 +1,6 @@
 n = int(input(""))
 output = 1
 for i in range(n):
-    n -= i
-    print(n)
+    output += i
+    print(output)
     output = 1

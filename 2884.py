@@ -17,5 +17,4 @@ else:
         timehour = 23
 
 
-
 print(timehour, timeminute)
