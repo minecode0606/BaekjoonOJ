@@ -14,7 +14,8 @@ import sys
 #        compare02 = input_list[j]
 #        if maximum02 < compare02:
 #            maximum02 = compare02
-#    return maximum01 + maximum02
+#    return maximum01 + maximum01
+
 
 
 
