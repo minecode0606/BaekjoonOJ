@@ -21,6 +21,3 @@ import sys
 
 if __name__ == "__main__":
 #    print(counter_max_2())
-
-
-
