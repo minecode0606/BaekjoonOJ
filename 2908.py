@@ -1,4 +1,6 @@
 import sys
+
+
 def caculate():
     input_list = list(map(int, list(sys.stdin.readline().split())))
     A = list(map(str, list(reversed([int(i) for i in str(input_list[0])]))))
@@ -15,7 +17,6 @@ def caculate():
         return output02
     else:
         return output01
-
 
 
 if __name__ == "__main__":
