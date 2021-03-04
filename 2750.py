@@ -14,17 +14,17 @@
 #     output = sort_ascending(ln)
 #     print(output)
 
-loop_input = int(input(""))
-inputlist = []
-outputlist = []
-for _ in range(loop_input):
-    forinput = int(input(""))
-    inputlist.append(forinput)
+# loop_input = int(input(""))
+# inputlist = []
+# outputlist = []
+# for _ in range(loop_input):
+#     forinput = int(input(""))
+#     inputlist.append(forinput)
 
-for _ in inputlist:
-    maximimum = inputlist[0]
-    for j in inputlist:
-        if maximimum <= j:
-            outputlist.append(j)
-    inputlist.pop(0)
-print(outputlist)
+# for _ in inputlist:
+#     maximimum = inputlist[0]
+#     for j in inputlist:
+#         if maximimum <= j:
+#             outputlist.append(j)
+#     inputlist.pop(0)
+# print(outputlist)
