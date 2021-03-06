@@ -1,24 +1,34 @@
-def count(weigh):
-    outputcount = 0
-    while True:
-        if weigh % 5 == 0:
-            outputcount += 1
-            weigh = weigh - 5
-        if weigh % 5 != 0:
-            break
+def distribute(kg):
+    count = 0
+    anothercount = 0
+    anotherkg = kg
 
-    while True:
-        if weigh % 3 == 0:
-            outputcount += 1
-            weigh = weigh - 3
-        if weigh % 3 != 0:
+    while kg >= 5:
+        count += 1
+        kg -= 5
+        if kg % 3 == 0:
             break
+    while kg >= 3:
+        count += 1
+        kg -= 3
 
-    if weigh == 0:
-        return outputcount
-    elif weigh != 0:
+    while anotherkg >= 3:
+        anothercount += 1
+        anotherkg -= 3
+        if anotherkg % 5 == 0:
+            break
+    while anotherkg >= 5:
+        anothercount += 1
+        anotherkg -= 5
+
+    if kg == 0:
+        return count
+    elif anotherkg == 0:
+        return anothercount
+    else:
         return -1
 
+
 if __name__ == '__main__':
-    input01 = int(input(""))
-    print(count(input01))
+    maininput01 = int(input(""))
+    print(distribute(maininput01))
