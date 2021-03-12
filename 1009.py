@@ -9,3 +9,4 @@ for _ in range(input01): # 반복문 돌리기
     for i in range(1, 11):
         if devide == i:
             print(i)
+            #테스트
