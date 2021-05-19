@@ -1,3 +1,4 @@
+
 loopinput = int(input(""))
 
 inputlist = []
