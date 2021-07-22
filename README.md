@@ -6,3 +6,5 @@
 ## 목적
 일단 1차적인 목표는 한국 정보 올림피아드(KOI)를 준비하고자 
 이 repository를 만들게 되었습니다. 
+
+https://www.acmicpc.net/user/minseo_0606
