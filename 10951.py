@@ -1,11 +1,7 @@
-import sys
-def add(input_list):
-    A, B = input_list[0], input_list[1]
-    return A + B
-
-
-if __name__ == '__main__':
-    while True:
-        input01 = list(map(int, list(sys.stdin.readline().split())))
-        count = add(input01)
-        print(count)
+while True:
+    try:
+        countlist = input("").split()
+        count1, count2 = int(countlist[0]), int(countlist[1])
+        print(count1 + count2)
+    except:
+        break
