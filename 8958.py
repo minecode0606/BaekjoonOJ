@@ -8,18 +8,17 @@ def make_list(s):
 # 반복문을 돌려 입력값을 입력받아 반복문을 돌립니다
 loopinput = int(input(""))
 output = 0
+count = 0
 # 인풋을 리스트로 쪼갭니다.
 for _ in range(loopinput):
     ox_input = input("")
     ox_inputsplit = make_list(ox_input)
-    print(ox_inputsplit)
-    ox_listindex = 0
-    # O의 최종 인덱스를 찿아서 연산합니다.
     for i in ox_inputsplit:
-        if i == "X":
-            ox_listindex = 0
-            ox_inputsplit.remove("X")
-            break
-        ox_listindex += 1
-        output += ox_listindex
+        if i == 'X':
+            count = 0
+        else:
+            count += 1
+            output += count
     print(output)
+    output = 0
+    count = 0
