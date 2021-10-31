@@ -20,9 +20,8 @@ class Work:
                 self.X += self.T
             elif self.X - self.R > self.m:
                 self.X -= self.R
-            elif self.X == self.
-
-            minute += 1
+            # elif self.X == self.m
+            #     minute += 1
 
 
 if __name__ == '__main__':
