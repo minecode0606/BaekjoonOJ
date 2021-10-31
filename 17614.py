@@ -15,3 +15,5 @@ for i in range(numberlength):
             output.append(i)
 
 print(len(output))
+
+#부분성공
