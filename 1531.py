@@ -25,4 +25,5 @@ for index in position_dict:
     if position_dict[f"{index}"] > M:
         count += 1
 
+
 print(count)
